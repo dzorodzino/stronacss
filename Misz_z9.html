@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<html>
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Miszkiel_z9_html</title>
+</head>
+
+<body>
+
+
+
+<ol>
+
+
+
+
+
+
+<h1><li> Składnia teoretyczna  otoczony ramką (może być tabela jedno komórkowa,
+konieczne wcięcia).</li><br></h1>
+
+<table border=2>
+        <tr>
+            <td>
+                selektor {<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;właściwość: wartość;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;właściwość: wartość;<br>
+                }
+            </td>
+        </tr>
+    </table>
+    <p class="note">Selektor wskazuje element HTML, właściwość to cecha stylu, a wartość to konkretna wartość tej cechy.</p>
+
+
+<h1><li> Gdzie wstawiany jest styl zewnętrzny, jaki znacznik jest za to odpowiedzialny oraz
+ile razy może on występować w dokumencie, jakopodłączenie stylu CSS?</li><br></h1>
+
+<p>Styl zewnętrzny wstawiany jest w sekcji |head|. Za wstawienie odpowiada znacznik:</p>
+    <table border=2>
+        <tr>
+            <td>&lt;link rel="stylesheet" href="style.css"&gt;</td>
+        </tr>
+    </table>
+    <p class="note">Znacznik |link| może występować wielokrotnie.</p>
+
+
+<h1><li> Jak jest najprostsza forma wstawiania stylu zewnętrznego  otoczony ramką (może
+być tabela jedno komórkowa?</li><br></h1>
+
+ <table border=2>
+        <tr>
+            <td>&lt;link rel="stylesheet" href="style.css"&gt;</td>
+        </tr>
+    </table>
+
+
+<h1><li> Ile arkuszy styli może być dołączanych do jednego dokumentu HTML oraz jaka zasad
+musi być zachowana przy większej ilości dołączanych styli?</li><br></h1>
+
+<ul>
+        <li>Można dołączyć dowolną liczbę arkuszy.</li>
+        <li>Kolejność ma znaczenie – późniejsze style mogą nadpisywać wcześniejsze.</li>
+    </ul>
+
+
+<h1><li> Co się dzieje w przypadku konfliktów? Przez konflikt rozumiemy, gdy te same style
+są definiowane w różnych arkuszach styli podłączone do tego samego arkusza.</li><br></h1>
+
+<p>Jeśli te same style są w różnych arkuszach CSS, obowiązuje zasada kaskady:</p>
+    <ul>
+        <li>Styl wczytany później ma pierwszeństwo.</li>
+        <li>Bardziej szczegółowy selektor wygrywa.</li>
+        <li>Styl z <code>!important</code> ma najwyższy priorytet.</li>
+    </ul>
+
+
+<h1><li> Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego?</li><br></h1>
+
+<ul>
+        <li>Tworzy się je jako zwykłe pliki tekstowe.</li>
+        <li>Rozszerzenie: <code>.css</code></li>
+        <li>można edytować np. w: Notatniku, Notepad++, Visual Studio Code</li>
+    </ul>
+
+
+<h1><li> Jak są tworzone i edytowane pliki arkuszy z użyciem specjalnego edytora CSS?</li><br></h1>
+
+<ul>
+        <li>Podpowiedzi składni, kolorowanie kodu, sprawdzanie błędów, automatyczne formatowanie</li>
+        <li>Przykłady: Visual Studio Code, WebStorm, Brackets</li>
+    </ul>
+
+
+
+<h1><li> Jakie rozszerzenie posiadają plik będący zewnętrznym arkuszem styli?</li><br></h1>
+
+.css<br>
+
+
+<h1><li> Jakie są zalety zewnętrznego arkusza styli( dwie – z użyciem wyliczenia?</li><br></h1>
+
+<ol>
+        <li>Oddzielenie struktury strony od wyglądu</li>
+        <li>Jednolita zmiana wyglądu wielu stron jednocześnie</li>
+    </ol>
+
+
+<h1><li> Uwagi na temat pisania w CSS.</li><br></h1>
+
+<ul>
+        <li>Nazwy właściwości zapisujemy małymi literami</li>
+        <li>Stosować wcięcia i czytelny układ kodu</li>
+        <li>Każdą deklarację kończymy średnikiem</li>
+        <li>Komentarze zapisujemy w formacie /* komentarz */</li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ol>
+
+
+
+<!-- Miszkiel_z9_html -->
+
+
+
+</body>
+</html>

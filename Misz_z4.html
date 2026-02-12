@@ -1,0 +1,59 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+   <meta charset="UTF-8"> 
+   <title>Miszkiel_Z4_html</title> 
+</head> 
+<body> 
+<table border=2> 
+   <caption></caption> 
+   <thead> 
+      <tr> 
+  
+  <th colspan="5">Sposoby podłączania styli do strony (skrócone zestawienie).</th> 
+   
+ </tr> 
+   </thead> 
+   <tbody> 
+      <tr> 
+         <td><u>1)Zewnętrzny arkusz stylów.</u></td> 
+         <td><u>2)Styl lokalny inaczej: (styl wpisany, liniowy, linijkowy, w linii)  czyli 
+dopisanie arkusza do wybranego bloku treści strony.</u></td> 
+         <td><u> 3)Wewnętrzny arkusz stylów.</u></td>
+         <td><u> 4)Alternatywny arkusz stylów.</u></td>
+         <td><u> 5)Import arkusza stylów.</u></td>
+    </tr> 
+      
+     <tr>  
+        <td><b><u>< head> 
+< link rel="Stylesheet" type="text/css" href="style.css" /> 
+< /head>  </b></u></td> 
+        
+<td> <b><u>< selektor style="cecha1: wartość1; cecha2: wartość2...">...< /selektor> </u></b>  </td>  
+        
+        <td><b><u> < head>  
+< style type="text/css"> 
+selektor1 { cecha: wartość; cecha2: wartość2... } 
+selektor2 { cecha: wartość; cecha2: wartość2... } 
+< /style> 
+< /head> </b></u></td> 
+       
+<td><b><u>< head> 
+< link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" /> 
+< link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" /> 
+< link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" /> 
+< /head> </b></u> </td>
+        
+<td><b><u> < style type="text/css"> 
+@import url(adres zewnętrznego arkusza stylów); 
+< /style> </b></u></td>
+    </tr> 
+      
+   </tbody> 
+</table> 
+
+
+<!--  Miszkiel Z4_html  --> 
+
+</body> 
+</html>
