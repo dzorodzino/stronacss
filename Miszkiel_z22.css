@@ -1,0 +1,20 @@
+/* zwykły akapit */
+p {
+color:red;
+font-size:22pt;
+}
+
+/* akapit z ID */
+#gruby_Miszkiel {
+color:green;
+font-size:17pt;
+font-weight:bold;
+}
+
+/* ID dla wszystkich elementów */
+#dlawszystkich_Miszkiel {
+color:yellow;
+font-size:10pt;
+font-family:Arial;
+}
+  /*  Igor Miszkiel  */

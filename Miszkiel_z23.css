@@ -1,0 +1,48 @@
+/* 1 */
+p#pogrubienie_Miszkiel {
+font-size:33px;
+color:#8B5DCA;
+font-weight:bold;
+}
+
+/* 2 */
+p#pochylona_Miszkiel {
+font-size:38pt;
+color:#EFC166;
+font-style:italic;
+}
+
+/* 3 */
+p#index_gorny_Miszkiel {
+font-size:1.3cm;
+color:#9F8F16;
+vertical-align:super;
+}
+
+/* 4 */
+p#index_dolny_Miszkiel {
+font-size:2.1cm;
+color:rgb(23%,95%,87%);
+vertical-align:sub;
+}
+
+/* 5 */
+p#mono_Miszkiel {
+font-size:43px;
+color:#1FDF66;
+font-family:monospace;
+}
+
+/* 6 */
+p#powiekszenie_Miszkiel {
+color:#593F98;
+font-size:larger;
+}
+
+/* 7 */
+p#pomniejszenie_Miszkiel {
+color:rgb(74%,64%,20%);
+font-size:smaller;
+}
+
+/* Igor Miszkiel */
