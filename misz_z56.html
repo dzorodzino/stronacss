@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Miszkiel Z56_html</title>
+<style>
+body{
+    font-family: Arial;
+}
+h1{
+    text-align:center;
+}
+.pogrubienie{
+    font-weight:bold;
+}
+.ramka{
+    border:1px solid black;
+    padding:10px;
+    margin:10px 0;
+}
+</style>
+</head>
+<body>
+
+
+
+<ol>
+
+<li>
+<h2>Składnia teoretyczna definiowania klasy</h2>
+<div class="ramka">
+selektor.klasa { cecha: wartość }
+</div>
+</li>
+
+<li>
+<h2>Podaj opis dla Klasa "cecha" oraz "wartość"</h2>
+Klasa to wartość atrybutu class przypisana do elementu HTML.
+"cecha" oraz "wartość" określają właściwości formatowania elementu nadane za pomocą CSS.
+</li>
+
+<li>
+<h2>Jaki znacznik może być selektorem?</h2>
+Selektorem może być dowolny znacznik HTML, np.:
+<ul>
+<li>p – akapit</li>
+<li>h1 – nagłówek</li>
+<li>td – komórka tabeli</li>
+</ul>
+</li>
+
+<li>
+<h2>Uwagi na temat nazwy klas</h2>
+
+Nazwą może być <span class="pogrubienie">dowolny pojedynczy wyraz</span>, nie może on zawierać:
+
+<ul>
+<li><span class="pogrubienie">spacji</span></li>
+<li><span class="pogrubienie">kropki</span></li>
+<li><span class="pogrubienie">przecinka</span></li>
+<li><span class="pogrubienie">dwukropka</span></li>
+<li><span class="pogrubienie">znaku zapytania</span></li>
+<li><span class="pogrubienie">nawiasów</span></li>
+<li><span class="pogrubienie">znaku równości</span></li>
+<li><span class="pogrubienie">plusa</span></li>
+</ul>
+
+Może zawierać:
+
+<ul>
+<li><span class="pogrubienie">litery</span></li>
+<li><span class="pogrubienie">cyfry</span></li>
+<li><span class="pogrubienie">myślniki</span></li>
+<li><span class="pogrubienie">podkreślniki</span></li>
+</ul>
+
+Nazwa nie może zaczynać się od
+<span class="pogrubienie">cyfry ani myślnika</span>.
+
+Gdy chcemy użyć znaków zakazanych należy
+<span class="pogrubienie">poprzedzić je ukośnikiem odwrotnym \</span>.
+</li>
+
+<li>
+<h2>Jakie jest zastosowanie klas?</h2>
+Klasy służą do nadawania określonego stylu wybranym elementom strony bez konieczności formatowania wszystkich elementów tego samego typu.
+</li>
+
+<li>
+<h2>Kiedy ma zastosowanie lista klas?</h2>
+Gdy chcemy przypisać jednemu elementowi kilka różnych klas jednocześnie.
+</li>
+
+<li>
+<h2>Składnia listy klas oraz uwagi</h2>
+
+<div class="ramka">
+&lt;selektor class="klasa1 klasa2 klasa3"&gt;...&lt;/selektor&gt;
+</div>
+
+Uwagi:
+<ul>
+<li>Klasy muszą być wcześniej zdefiniowane.</li>
+<li>Kolejność klas nie ma znaczenia.</li>
+<li>Obowiązuje zasada kaskadowości CSS.</li>
+</ul>
+</li>
+
+<li>
+<h2>Podzbiory klas</h2>
+
+<div class="ramka">
+selektor.klasa1.klasa3 { cecha: wartość }
+</div>
+
+Podzbiór klas oznacza, że element musi posiadać jednocześnie wszystkie wskazane klasy.
+</li>
+
+<li>
+<h2>Co jest sygnałem, że należy zastosować klasy?</h2>
+
+Jeżeli dany element występuje wielokrotnie na różnych stronach i powinien mieć takie samo formatowanie.
+</li>
+
+<li>
+<h2>Kiedy powinny być planowane klasy?</h2>
+
+Już na etapie projektowania strony internetowej, aby późniejsze modyfikacje były łatwiejsze.
+</li>
+
+<li>
+<h2>Jaki jest cel stosowania komentarzy?</h2>
+
+Komentarze opisują przeznaczenie klas i ułatwiają późniejszą pracę z arkuszem stylów.
+</li>
+
+<li>
+<h2>Przykład definiowania klasy i użycia</h2>
+
+<div class="ramka">
+p.przyklad_klasa { color:red; }
+</div>
+
+Wywołanie:
+
+<div class="ramka">
+&lt;p class="przyklad_klasa"&gt;To jest akapit.&lt;/p&gt;
+</div>
+</li>
+
+<li>
+<h2>Klasa odnosząca się tylko do jednego selektora</h2>
+
+Przykład:
+
+<div class="ramka">
+p.moja
+{
+color:green;
+font-size:14pt;
+}
+</div>
+
+Wywołanie:
+
+<div class="ramka">
+&lt;p class="moja"&gt;Treść akapitu&lt;/p&gt;
+</div>
+</li>
+
+<li>
+<h2>Cel stosowania klasy uniwersalnej</h2>
+
+Klasa uniwersalna może być używana przez różne znaczniki HTML.
+
+Definicja:
+
+<div class="ramka">
+.przyklad_uniwersalna
+{
+color:red;
+font-size:12pt;
+}
+</div>
+
+Wywołanie:
+
+<div class="ramka">
+&lt;p class="przyklad_uniwersalna"&gt;Akapit&lt;/p&gt;
+
+&lt;h1 class="przyklad_uniwersalna"&gt;Nagłówek&lt;/h1&gt;
+</div>
+
+Znak * oznacza selektor uniwersalny i może zostać pominięty.
+
+</li>
+
+</ol>
+
+<!-- Miszkiel Z56_html -->
+
+</body>
+</html>

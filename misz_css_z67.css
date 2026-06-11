@@ -1,0 +1,49 @@
+/* Igor Miszkiel */
+
+p
+{
+    color:red;
+}
+
+p.akapit1
+{
+    font-size:19pt;
+}
+
+p.akapit2
+{
+    font-size:21pt;
+}
+
+p.akapit1:first-letter
+{
+    color:blue;
+    font-size:112pt;
+}
+
+p.akapit2:first-letter
+{
+    color:lightgreen;
+    font-size:112pt;
+}
+
+h1
+{
+    color:violet;
+    font-size:40pt;
+}
+
+h1:first-letter
+{
+    color:silver;
+    font-size:60pt;
+}
+
+p.linia:first-line
+{
+    color:blue;
+    font-weight:bold;
+    font-size:18pt;
+}
+
+/* Miszkiel Z67_css */

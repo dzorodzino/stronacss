@@ -1,0 +1,71 @@
+body
+{
+    background-color:silver;
+}
+
+p
+{
+    font-size:10pt;
+}
+
+p:first-child
+{
+    font-size:9mm;
+    font-style:italic;
+}
+
+#pierwszy_miszkiel
+{
+    width:756pt;
+
+    background-color:rgb(255,192,203);
+
+    border:7px solid purple;
+
+    border-top-left-radius:11px;
+    border-top-right-radius:11px;
+    border-bottom-left-radius:11px;
+    border-bottom-right-radius:11px;
+
+    padding:10px;
+}
+
+#drugi_miszkiel
+{
+    width:956pt;
+
+    background-color:rgb(144,238,144);
+
+    border:3px solid black;
+
+    margin-left:auto;
+    margin-right:auto;
+
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+
+    padding:10px;
+}
+
+#trzeci_miszkiel
+{
+    width:1156pt;
+
+    background-color:rgb(173,216,230);
+
+    border:5px solid navy;
+
+    margin-left:auto;
+    margin-right:auto;
+
+    border-top-left-radius:9px;
+    border-top-right-radius:9px;
+    border-bottom-left-radius:9px;
+    border-bottom-right-radius:9px;
+
+    padding:10px;
+}
+
+/* Miszkiel Z65_css */

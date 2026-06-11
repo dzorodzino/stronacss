@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Miszkiel Z58_html</title>
+
+<link rel="stylesheet" href="misz_css_z58.css">
+
+</head>
+<body>
+
+
+
+<h2>1. Co to są pseudoklasy?</h2>
+
+<p>
+CSS przewiduje kilka ściśle określonych klas pozwalających na formatowanie
+niektórych elementów dokumentu. Są to pseudoklasy.
+</p>
+
+<h2>2. Uwaga dotycząca dwukropka</h2>
+
+<p>
+Szalenie istotnym elementem tej konstrukcji jest dwukropek (:)
+występujący pomiędzy selektorem a nazwą pseudoklasy.
+</p>
+
+<h2>3. Tabela opisująca pseudoklasy</h2>
+
+<table>
+
+<tr>
+<th>Pseudoklasa</th>
+<th>Opis</th>
+</tr>
+
+<tr>
+<td>A:link</td>
+<td>Odpowiada za wygląd hiperłącza, jeżeli nie zostało ono jeszcze odwiedzone.</td>
+</tr>
+
+<tr>
+<td>A:visited</td>
+<td>Odpowiada za formatowanie hiperłącza już odwiedzonego.</td>
+</tr>
+
+<tr>
+<td>A:hover</td>
+<td>Zmiany elementów po najechaniu na nie kursorem myszy.</td>
+</tr>
+
+<tr>
+<td>A:active</td>
+<td>Formatowanie aktywnego (klikniętego) odsyłacza.</td>
+</tr>
+
+<tr>
+<td>A:focus</td>
+<td>Formatowanie elementu posiadającego fokus.</td>
+</tr>
+
+<tr>
+<td>:lang</td>
+<td>Formatowanie wielojęzykowych dokumentów.</td>
+</tr>
+
+<tr>
+<td>:first-child</td>
+<td>Pozwala określić formatowanie pierwszego dziecka wybranego elementu.</td>
+</tr>
+
+</table>
+
+<h2>4. Zastosowanie pseudoklasy :active</h2>
+
+<p>
+1. Można używać jako uzupełnienia definicji odnośników.<br>
+2. Może poprawiać czytelność formularzy.
+</p>
+
+<h2>5. Przykłady kodów definiowania pseudoklas</h2>
+
+<h3>Przykład 1 - :link oraz :visited</h3>
+
+<pre>
+A:link
+{
+    color:red;
+}
+
+A:visited
+{
+    color:green;
+}
+</pre>
+
+<h3>Przykład 2 - Formatowanie wszystkich odnośników</h3>
+
+<pre>
+A
+{
+    font-size:12pt;
+    text-decoration:none;
+}
+
+A:link
+{
+    color:navy;
+}
+
+A:visited
+{
+    color:green;
+}
+
+A:hover
+{
+    color:red;
+    text-decoration:underline;
+}
+</pre>
+
+<h3>Przykład 3 - Zastosowanie :focus</h3>
+
+<pre>
+A:focus
+{
+    color:brown;
+}
+</pre>
+
+<!-- Miszkiel Z58_html -->
+
+</body>
+</html>

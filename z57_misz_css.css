@@ -1,0 +1,17 @@
+*{
+    font-size:34pt;
+    color:blue;
+    background-color:yellow;
+}
+
+p.klasa_nieuniwersalna_miszkiel{
+    font-size:33pt;
+    color:violet;
+}
+
+.klasa_uniwersalna_miszkiel{
+    font-size:22pt;
+    color:black;
+}
+
+/* Miszkiel Z57_css */

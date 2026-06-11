@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Miszkiel Z66_html</title>
+
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        a {
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        
+        p {
+            color: navy;
+            font-size: 12pt;
+        }
+
+        p:first-line {
+            color: red;
+            font-size: 20pt;
+            font-weight: bold;
+        }
+
+       
+        p.beforeafter:before {
+            content: "TO SĄ ĆWICZENIA. ";
+            font-size: 15pt;
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        p.beforeafter:after {
+            content: " AUTOR Król Lew";
+            font-size: 15pt;
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        
+        p.firstletter {
+            color: navy;
+            font-size: 30pt;
+        }
+
+        p.firstletter:first-letter {
+            color: red;
+            font-size: 100pt;
+        }
+
+      
+        h1 {
+            color: navy;
+            font-size: 30pt;
+        }
+
+        h1:first-letter {
+            color: red;
+            font-size: 100pt;
+        }
+
+        .ramka {
+            border: 2px solid black;
+            padding: 10px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+<h1>Pseudoelementy CSS</h1>
+
+<div class="ramka">
+
+<h2>::first-line</h2>
+<p>
+Pseudoelement ::first-line obejmuje formatowaniem całą pierwszą linię tekstu w bloku.
+Można zmieniać kolor, wielkość czcionki oraz pogrubienie tylko pierwszej linii.
+</p>
+
+</div>
+
+<div class="ramka">
+
+<h2>::before oraz ::after</h2>
+<p class="beforeafter">
+Pseudoelementy ::before oraz ::after służą do dodawania treści przed i po elemencie
+bez ingerencji w kod HTML.
+</p>
+
+</div>
+
+<div class="ramka">
+
+<h2>::first-letter</h2>
+<p class="firstletter">
+Pseudoelement ::first-letter pozwala formatować pierwszą literę tekstu.
+Często stosowany do efektu ozdobnego inicjału w akapicie.
+</p>
+
+</div>
+
+<!-- Miszkiel Z66_html -->
+
+</body>
+</html>
